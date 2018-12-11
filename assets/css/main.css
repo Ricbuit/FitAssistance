@@ -1045,7 +1045,13 @@
 				#header a {
 					padding: 0 0.5em;
 				}
+			}
 
+			@media screen and (max-width: 1030px) {
+
+				#header a {
+					display: none;
+				}
 			}
 
 			@media screen and (max-width: 1680px) {
@@ -1272,6 +1278,7 @@
 
 				#banner h1 {
 					font-size: 1.75em;
+
 				}
 
 		}
@@ -1390,6 +1397,11 @@
 
 	#three {
 		padding: 6em 0 4em 0;
+		background: #f3f3f3;
+		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f7f7f7 0%, #f7f7f7 100%);
+
 	}
 
 		#three .inner {
@@ -1407,11 +1419,13 @@
 			-ms-justify-content: space-between;
 			justify-content: space-between;
 			-ms-flex-pack: justify;
+
 		}
 
 			#three .inner article {
 				width: 26%;
 				display: block;
+
 			}
 
 				#three .inner article p {
