@@ -974,7 +974,7 @@
 		width: 100%;
 		z-index: 10001;
 		border-style: solid;
-		border-width: 5px;
+		border-width: 4px;
 		border-color: #4d4d4d;
 	}
 
@@ -1391,6 +1391,10 @@
 
 			#two {
 				padding: 2em 0 0.1em 0;
+				background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 55%, #f7f7f7 0%, #f7f7f7 100%);
+				background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 555%, #f7f7f7 0%, #f7f7f7 100%);
+				background: linear-gradient(to bottom, #f3f3f3 0%, #f3f3f3 55%, #f7f7f7 0%, #f7f7f7 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
 			}
 
 		}
@@ -1457,16 +1461,36 @@
 
 			#three {
 				padding: 4em 0 2em 0;
+
+					background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 37%, #f7f7f7 0%, #f7f7f7 100%);
+					background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 37%, #f7f7f7 0%, #f7f7f7 100%);
+					background: linear-gradient(to bottom, #f3f3f3 0%, #f3f3f3 37%, #f7f7f7 0%, #f7f7f7 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
+				}
 			}
 
-		}
 
-		@media screen and (max-width: 736px) {
+
+		@media screen and (max-width: 617px) {
 
 			#three {
 				padding: 2em 0 0.1em 0;
+				background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 40%, #f7f7f7 0%, #f7f7f7 100%);
+				background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 40%, #f7f7f7 0%, #f7f7f7 100%);
+				background: linear-gradient(to bottom, #f3f3f3 0%, #f3f3f3 40%, #f7f7f7 0%, #f7f7f7 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
 			}
+		}
 
+		@media screen and (max-width: 379px) {
+
+			#three {
+				padding: 2em 0 0.1em 0;
+				background: -moz-linear-gradient(top, #f3f3f3 0%, #f3f3f3 44%, #f7f7f7 0%, #f7f7f7 100%);
+				background: -webkit-linear-gradient(top, #f3f3f3 0%, #f3f3f3 44%, #f7f7f7 0%, #f7f7f7 100%);
+				background: linear-gradient(to bottom, #f3f3f3 0%, #f3f3f3 44%, #f7f7f7 0%, #f7f7f7 100%);
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=0 );
+			}
 		}
 
 /* Footer */
