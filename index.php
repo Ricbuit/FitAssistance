@@ -8,6 +8,11 @@
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/fiticon.ico">
+
+		<?php
+			include('assets/php/email.php');
+		?>
+
 	</head>
 	<body>
 
@@ -145,13 +150,13 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 				</div>
 			</section>
 
-		<!-- Footer -->
+		<!-- Footer --><!--
 			<section id="footer">
 				<div class="inner">
 					<header>
 						<h2>Sign up</h2>
 					</header>
-					<form method="get" action="#">
+					<form method="post" action="#">
 						<div class="field half first">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
@@ -165,7 +170,7 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 							<textarea name="message" id="message" rows="6"></textarea>
 						</div>
 						<ul class="actions">
-							<li><input type="submit" value="Send Message" class="alt" /></li>
+							<li><input type="submit" name="submit" value="Send Message" class="alt" /></li>
 						</ul>
 					</form>
 					<div class="copyright">
@@ -175,7 +180,7 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 					</div>
 				</div>
 			</section>
-
+-->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 			<script src="assets/js/main.js"></script>
 
