@@ -9,6 +9,8 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/fiticon.ico">
 
+		<meta name="google-site-verification" content="lmLr-HBvJoXEUOr3XZ_rzlnXMs6H8O8kwYWq5amxyEM" />
+
 		<?php
 			include('assets/php/email.php');
 		?>
@@ -22,10 +24,11 @@
 					<img src="images/fitlogo.jpg" alt="" class="logo">
 					<nav id="nav">
 						<a href="#one">Home</a>
-						<a href="#two">Over ons</a>
 						<a href="#four">Hoe werkt het?</a>
-						<a href="#three">Privacy</a>
-						<a href="#three">Contact</a>
+						<!--<a href="#six"><Trainingen</a>-->
+						<a href="#two">Over ons</a>
+						<a href="#three">Privacy / Contact</a>
+						<a href="#footer">Contactformulier</a>
 					</nav>
 				</div>
 			</header>
@@ -36,7 +39,7 @@
 					<h1> <span>The body achieves, <br />
 					what the mind believes</span></h1>
 					<ul class="actions">
-						<li><a href="#footer" class="button alt">Sign up</a></li>
+						<li><a href="#footer" class="button alt">Contact</a></li>
 					</ul>
 				</div>
 			</section>
@@ -54,36 +57,8 @@
 				</div>
 			</section>
 
-		<!-- Two -->
-			<section id="two">
-				<div class="inner">
-					<article>
-						<div class="content">
-							<header>
-								<h3>Over ons</h3>
-							</header>
-							<div class="image fit">
-								<img src="images/pic01.jpg" alt="" />
-							</div>
-							<p>Hallo! Mijn naam is Thije van Lokven, ik ben laatstejaars student Toegepaste Psychologie aan de HAN te Nijmegen. Ik heb een grote passie voor sport en de mentale aspecten die daarbij komen kijken. Vandaar mijn keuze voor de minor prestatiepsychologie. Gedurende mijn stageperiode bij een sportschool heb ik ervaring opgedaan in het mentaal begeleiden van sporters. Nadat ik zag wat voor effect de coaching had, kreeg ik de droom om Fit Assistance op te richten. Mijn doel: zoveel mogelijk mensen helpen hun sportdoelen te bereiken.</p>
-						</div>
-					</article>
-					<article class="alt">
-						<div class="content">
-							<header>
-								<h3>&zwnj;</h3>
-							</header>
-							<div class="image fit">
-								<img src="images/pic02.jpg" alt="" />
-							</div>
-							<p>Hi! Ik ben Alma Elshof, mede-eigenaar van Fit Assistance. Mijn passie: cijfertjes. Ik zorg ervoor dat alles ‘achter de schermen’ goed loopt, zodat Thije zich voor de volle 100% kan richten op het coachen. Mijn taken zijn onder andere het organiseren van de agenda, de bedrijfsadministratie en de marketing voor Fit Assistance.</p>
-						</div>
-					</article>
-				</div>
-			</section>
-
 			<!-- Three --><div id="four"></div>
-				<section id="one">
+				<section id="five">
 					<div class="inner">
 						<header>
 							<h2>Hoe werkt het?</h2>
@@ -104,6 +79,52 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 						</ul>-->
 					</div>
 				</section>
+
+				<!-- Banner -->
+					<section id="banner2">
+						<div class="inner">
+
+						</div>
+						<h3>&zwnj;</h3><h3>&zwnj;</h3>
+					</section>
+
+					<!-- Three --><!--<div id="six"></div>
+						<section id="one">
+							<div class="inner">
+								<header>
+									<h2>Trainingen</h2><h3>&zwnj;</h3><h3>&zwnj;</h3><h3>&zwnj;</h3><h3>&zwnj;</h3><h3>&zwnj;</h3>
+								</header>
+
+							</div>
+						</section>-->
+
+		<!-- Two -->
+			<section id="two">
+				<div class="inner">
+					<article>
+						<div class="content">
+							<header>
+								<h3>Over ons</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/pic01.jpg" alt="" />
+							</div>
+							<p>Hallo! Mijn naam is Thije van Lokven, ik ben Toegepast Psycholoog in opleiding. Momenteel ben ik bezig met mijn laatste jaar. Ik heb een grote passie voor sport en de mentale aspecten die daarbij komen kijken. Momenteel ben ik bezig met mijn laatste jaar. Vandaar mijn keuze voor de minor prestatiepsychologie. Gedurende mijn stageperiode bij een sportschool heb ik ervaring opgedaan in het mentaal begeleiden van sporters. Nadat ik zag wat voor effect de coaching had, kreeg ik de droom om Fit Assistance op te richten. Mijn doel: zoveel mogelijk mensen helpen hun sportdoelen te bereiken.</p>
+						</div>
+					</article>
+					<article class="alt">
+						<div class="content">
+							<header>
+								<h3>&zwnj;</h3>
+							</header>
+							<div class="image fit">
+								<img src="images/pic02.jpg" alt="" />
+							</div>
+							<p>Hi! Ik ben Alma Elshof, mede-eigenaar van Fit Assistance. Mijn passie: cijfertjes. Ik zorg ervoor dat alles ‘achter de schermen’ goed loopt, zodat Thije zich voor de volle 100% kan richten op het coachen. Mijn taken zijn onder andere het organiseren van de agenda, de bedrijfsadministratie en de marketing voor Fit Assistance.</p>
+						</div>
+					</article>
+				</div>
+			</section>
 
 		<!-- Three -->
 			<section id="three">
@@ -154,7 +175,7 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 			<section id="footer">
 				<div class="inner">
 					<header>
-						<h2>Sign up</h2>
+						<h2>Contactformulier</h2>
 					</header>
 					<form method="post" action="#">
 						<div class="field half first">
@@ -174,9 +195,9 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 						</ul>
 					</form>
 					<div class="copyright">
-						<a href="https://www.facebook.com/Fit-Assistance-800942050256323/?ref=page_internal" class="fab fa-facebook-square"></a>
-						<a href="https://www.twitter.com" class="fab fa-twitter-square"></a>
-						<a href="https://plus.google.com/" class="fab fa-google-plus-g"></a>
+						<a href="https://www.facebook.com/fitassistance" class="fab fa-facebook-square"></a>
+						<a href="https://www.linkedin.com/company/fit-assistance/" class="fab fa-linkedin"></a>
+						<a href="https://www.instagram.com/fitassistance.nl/" class="fab fa-instagram"></a>
 					</div>
 				</div>
 			</section>
