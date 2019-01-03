@@ -32,10 +32,10 @@
 					<img src="images/fitlogo.jpg" alt="" class="logo">
 					<nav id="nav">
 						<a href="#one">Home</a>
-						<a href="#four">Hoe werkt het?</a>
-						<a href="#six">Trainingen</a>
-						<a href="#two">Over ons</a>
-						<a href="#three">Privacy / Contact</a>
+						<a href="#two">Hoe werkt het?</a>
+						<a href="#three">Trainingen</a>
+						<a href="#four">Over ons</a>
+						<a href="#five">Privacy / Contact</a>
 						<a href="#footer">Contactformulier</a>
 					</nav>
 				</div>
@@ -58,46 +58,37 @@
 					<header>
 						<h2>Home</h2>
 					</header>
-					<p>Welkom bij Fit Assistance! Bij Fit Assistance hebben wij één doel: mensen helpen nóg beter te worden dan dat ze al zijn. Wij bieden mentale ondersteuning bij je gezondheidsdoelen. Heb je moeite met het volhouden van een sportprogramma of een bepaald dieet? Wil je graag beter worden in de sport die je beoefent? Of wil je meer routine opbouwen en je slechte gewoontes veranderen? Neem dan contact op voor een vrijblijvend kennismakingsgesprek.</p>
-					<!--<ul class="actions">
-						<li><a href="#" class="button alt">Learn More</a></li>
-					</ul>-->
+					<p>Welkom bij Fit Assistance! Bij Fit Assistance hebben wij één doel: mensen helpen nóg beter te worden dan dat ze al zijn. Wij bieden mentale ondersteuning bij je gezondheidsdoelen.
+						Heb je moeite met het volhouden van een sportprogramma of een bepaald dieet? Wil je graag beter worden in de sport die je beoefent? Of wil je meer routine opbouwen en je slechte
+						gewoontes veranderen? Neem dan contact op voor een vrijblijvend kennismakingsgesprek.</p>
 				</div>
 			</section>
 
-			<!-- Three --><div id="four"></div>
-				<section id="five">
+			<!-- Two -->
+				<section id="two">
 					<div class="inner">
 						<header>
 							<h2>Hoe werkt het?</h2>
 						</header>
-						<p>Je kan met ons in contact komen via het contactformulier, door een mailtje te sturen of te bellen/appen. We maken dan een afspraak voor een telefonisch gesprek. Tijdens dit gesprek bespreken we je situatie en kijken we of Fit Assistance daarbij aansluit. Daarna vinden de afspraken plaats in de buitenlucht tijdens een wandeling. De locatie hiervan bepalen we samen tijdens het telefoongesprek. De gesprekken duren ongeveer driekwartier. Na elk gesprek krijg je een mail met daarin de hoofdpunten die besproken zijn, zodat je dit nog even rustig door kan lezen.</p>
-						<p>Wachttijd: geen.</p>
-			<p>			Tarieven:<br>
-
-Eerste gesprek (telefonisch) &nbsp  &nbsp &nbsp &nbsp Gratis<br>
-
-Coachingssessie&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp € 30,-
-</p>
-
-<p>
-Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
-						<!--<ul class="actions">
-							<li><a href="#" class="button alt">Learn More</a></li>
-						</ul>-->
+							<p>Je kan met ons in contact komen via het contactformulier, door een mailtje te sturen of te bellen/appen. We maken dan een afspraak voor een telefonisch gesprek. Tijdens dit
+								gesprek bespreken we je situatie en kijken we of Fit Assistance daarbij aansluit. Daarna vinden de afspraken plaats in de buitenlucht tijdens een wandeling. De locatie hiervan
+								bepalen we samen tijdens het telefoongesprek. De gesprekken duren ongeveer driekwartier. Na elk gesprek krijg je een mail met daarin de hoofdpunten die besproken zijn, zodat je
+								dit nog even rustig door kan lezen.</p>
+							<p>Wachttijd: geen.</p>
+						  <p>Tarieven:<br>
+								Eerste gesprek (telefonisch) &nbsp  &nbsp &nbsp &nbsp Gratis<br>
+								Coachingssessie&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp € 30,- </p>
+							<p>Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 					</div>
 				</section>
 
-				<!-- Banner -->
+				<!-- Banner2 -->
 					<section id="banner2">
-						<div class="inner">
-
-						</div>
 						<h3>&zwnj;</h3><h3>&zwnj;</h3>
 					</section>
 
-					<!-- Three --><div id="six"></div>
-						<section id="one">
+					<!-- Three -->
+						<section id="three">
 							<div class="inner">
 								<header>
 									<h2>Trainingen</h2>
@@ -120,8 +111,8 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 							</div>
 						</section>
 
-		<!-- Two -->
-			<section id="two">
+		<!-- Four -->
+			<section id="four">
 				<div class="inner">
 					<article>
 						<div class="content">
@@ -131,7 +122,10 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 							<div class="image fit">
 								<img src="images/pic01.jpg" alt="" />
 							</div>
-							<p>Hallo! Mijn naam is Thije van Lokven, ik ben Toegepast Psycholoog in opleiding. Momenteel ben ik bezig met mijn laatste jaar. Ik heb een grote passie voor sport en de mentale aspecten die daarbij komen kijken. Momenteel ben ik bezig met mijn laatste jaar. Vandaar mijn keuze voor de minor prestatiepsychologie. Gedurende mijn stageperiode bij een sportschool heb ik ervaring opgedaan in het mentaal begeleiden van sporters. Nadat ik zag wat voor effect de coaching had, kreeg ik de droom om Fit Assistance op te richten. Mijn doel: zoveel mogelijk mensen helpen hun sportdoelen te bereiken.</p>
+							<p>Hallo! Mijn naam is Thije van Lokven, ik ben Toegepast Psycholoog in opleiding. Momenteel ben ik bezig met mijn laatste jaar. Ik heb een grote passie voor sport en de
+								mentale aspecten die daarbij komen kijken. Momenteel ben ik bezig met mijn laatste jaar. Vandaar mijn keuze voor de minor prestatiepsychologie. Gedurende mijn stageperiode
+								bij een sportschool heb ik ervaring opgedaan in het mentaal begeleiden van sporters. Nadat ik zag wat voor effect de coaching had, kreeg ik de droom om Fit Assistance op te richten.
+								Mijn doel: zoveel mogelijk mensen helpen hun sportdoelen te bereiken.</p>
 						</div>
 					</article>
 					<article class="alt">
@@ -142,16 +136,16 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 							<div class="image fit">
 								<img src="images/pic02.jpg" alt="" />
 							</div>
-							<p>Hi! Ik ben Alma Elshof, mede-eigenaar van Fit Assistance. Mijn passie: cijfertjes. Ik zorg ervoor dat alles ‘achter de schermen’ goed loopt, zodat Thije zich voor de volle 100% kan richten op het coachen. Mijn taken zijn onder andere het organiseren van de agenda, de bedrijfsadministratie en de marketing voor Fit Assistance.</p>
+							<p>Hi! Ik ben Alma Elshof, mede-eigenaar van Fit Assistance. Mijn passie: cijfertjes. Ik zorg ervoor dat alles ‘achter de schermen’ goed loopt, zodat Thije zich voor de volle 100% kan
+								richten op het coachen. Mijn taken zijn onder andere het organiseren van de agenda, de bedrijfsadministratie en de marketing voor Fit Assistance.</p>
 						</div>
 					</article>
 				</div>
 			</section>
 
-		<!-- Three -->
-			<section id="three">
+		<!-- Five -->
+			<section id="five">
 				<div class="inner">
-
 					<article>
 						<div class="content">
 							<i class="fas fa-lock"></i>
@@ -159,9 +153,6 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 								<h3>Privacy</h3>
 							</header>
 							<p>Alles wat besproken wordt tijdens de gesprekken blijft tussen jou en je coach. Je situatie wordt niet besproken met anderen, ook niet met collega’s.</p>
-							<!--<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>-->
 						</div>
 					</article>
 					<article>
@@ -171,23 +162,11 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 								<h3>Contact</h3>
 							</header>
 							<p>info@fitassistance.nl<br>
-
-Thije      06-12549099<br>
-
-Alma     06-11526224<br>
-<br>
-
-
-
-
-KvK-nummer: 73000574<br>
-
-BTW nummer: NL859315472B01<br>
-
-IBAN: NL15 KNAB 0257 9986 83</p>
-							<!--<ul class="actions">
-								<li><a href="#" class="button alt">Learn More</a></li>
-							</ul>-->
+								Thije 06-12549099<br>
+								Alma 06-11526224<br><br>
+								KvK-nummer: 73000574<br>
+								BTW nummer: NL859315472B01<br>
+								IBAN: NL15 KNAB 0257 9986 83</p>
 						</div>
 					</article>
 				</div>
