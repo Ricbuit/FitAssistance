@@ -141,3 +141,8 @@ header h6 + p {
 header p {
   color: #717171;
 }
+
+body {
+  position: relative;
+  padding-top: 5em;
+}
