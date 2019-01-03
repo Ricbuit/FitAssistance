@@ -19,13 +19,83 @@
 
   }
 
+  #three input[type="submit"],
+  #three input[type="reset"],
+  #three input[type="button"],
+  #three button,
+  #three .button {
+    background-color: #5a5a5a;
+    color: #ffffff !important;
+  }
+
+    #three input[type="submit"]:hover,
+    #three input[type="reset"]:hover,
+    #three input[type="button"]:hover,
+    #three button:hover,
+    #three .button:hover {
+      background-color: #737373;
+    }
+
+    #three input[type="submit"].alt,
+    #three input[type="reset"].alt,
+    #three input[type="button"].alt,
+    #three button.alt,
+    #three .button.alt {
+      background-color: #4d4d4d;
+      box-shadow: inset 0 0 0 2px #fff;
+      color: #4d4d4d; !important;
+    }
+
+      #three input[type="submit"].alt:hover,
+      #three input[type="reset"].alt:hover,
+      #three input[type="button"].alt:hover,
+      #three button.alt:hover,
+      #three .button.alt:hover {
+        background-color: #999999;
+      }
+
+      #three input[type="submit"].alt:active,
+      #three input[type="reset"].alt:active,
+      #three input[type="button"].alt:active,
+      #three button.alt:active,
+      #three .button.alt:active {
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+
+      #three input[type="submit"].alt.icon:before,
+      #three input[type="reset"].alt.icon:before,
+      #three input[type="button"].alt.icon:before,
+      #three button.alt.icon:before,
+      #three .button.alt.icon:before {
+        color: #4d4d4d;
+      }
+
+    #three input[type="submit"].special,
+    #three input[type="reset"].special,
+    #three input[type="button"].special,
+    #three button.special,
+    #three .button.special {
+      background-color: #4d4d4d;
+      color: #4d4d4d !important;
+    }
+
 .column {
   float: left;
   width: 30.00%;
-  padding: 15px;
+  padding: 25px;
   margin: 1% 0% 0% 2.5%;
   background-color: #f3f3f3;
   text-align: center;
+  height: 630px;
+  position: relative;
+}
+
+.scroll{
+
+  position: absolute;
+  bottom: 0;
+  list-style-type: none;
+  width: 85%;
 }
 
 .row:after {

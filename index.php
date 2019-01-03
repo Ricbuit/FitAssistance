@@ -22,6 +22,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="assets/js/smoothslide.js"></script>
+
 	</head>
 
 	<body>
@@ -93,20 +94,38 @@
 								<header>
 									<h2>Trainingen</h2>
 								</header>
-									<p>Ben je op zoek naar een manier om de vitaliteit en de prestaties van je werknemers te verbeteren? Maak een afspraak om samen de mogelijkheden voor een training op locatie te bespreken.</p>
+									<p>Ben je op zoek naar een manier om de vitaliteit en de prestaties van je werknemers te verbeteren? Maak een afspraak om samen de mogelijkheden voor een training op locatie
+										te bespreken.</p>
 							</div>
 							<div class="row">
 								<div class="column">
 									<h4>Hoe leer ik een nieuwe gewoonte?</h4>
-									<p>Some text..</p>
+									<p>Leer hoe gewoontes ontstaan en waarom</p><hr>
+									<p>Krijg inzicht in eigen gewoontes</p><hr>
+									<p>Verbeter vitaliteit door slechte gewoontes te vervangen voor goede</p><hr>
+									<p>Krijg concrete handvatten voor het ontwikkelen van routine</p>
+									<ul class="scroll">
+										<li><a href="#footer" class="button alt">Neem contact op</a></li>
+									</ul>
 								</div>
 								<div class="column">
 									<h4>Hoe sta ik mezelf niet in de weg?</h4>
-									<p>Some text..</p>
+									<p>Krijg inzicht in obstakels die ontwikkeling in de weg staan</p><hr>
+									<p>Leer valkuilen te herkennen en te vermijden</p><hr>
+									<p>Laat niets in de weg staan van het bereiken van je doel</p>
+
+									<ul class="scroll">
+										<li><a href="#footer" class="button alt">Neem contact op</a></li>
+									</ul>
 								</div>
 								<div class="column">
 									<h4>Training op maat</h4>
-									<p>Some text..</p>
+									<p>Wat wil je graag bereiken met de training?</p><hr>
+									<p>Gebaseerd op jouw behoeftes</p>
+
+									<ul class="scroll">
+										<li><a href="#footer" class="button alt">Neem contact op</a></li>
+									</ul>
 								</div>
 							</div>
 						</section>
@@ -172,7 +191,7 @@
 				</div>
 			</section>
 
-		<!-- Footer -->
+		<!-- Footer --><!--
 			<section id="footer">
 				<div class="inner">
 					<header>
@@ -201,7 +220,7 @@
 						<a href="https://www.instagram.com/fitassistance.nl/" class="fab fa-instagram"></a>
 					</div>
 				</div>
-			</section>
+			</section>-->
 
 	</body>
 </html>

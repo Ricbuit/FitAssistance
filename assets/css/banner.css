@@ -27,15 +27,7 @@
 	z-index: 9999;
 }
 
-  #banner input, #banner select, #banner textarea {
-    color: #ffffff;
-  }
-
   #banner a {
-    color: #ffffff;
-  }
-
-  #banner strong, #banner b {
     color: #ffffff;
   }
 
@@ -43,14 +35,6 @@
     color: #fff;
   }
 
-  #banner blockquote {
-    border-left-color: #fff;
-  }
-
-  #banner code {
-    background: none;
-    border-color: #fff;
-  }
 
   #banner hr {
     border-bottom-color: #fff;
