@@ -5,17 +5,25 @@
 		<title>FitAssistance</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/fiticon.ico">
-
 		<meta name="google-site-verification" content="lmLr-HBvJoXEUOr3XZ_rzlnXMs6H8O8kwYWq5amxyEM" />
 
-		<?php
-			include('assets/php/email.php');
-		?>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+		<link rel="icon" href="images/fiticon.ico">
 
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/header.css" />
+		<link rel="stylesheet" href="assets/css/banner.css" />
+		<link rel="stylesheet" href="assets/css/one.css" />
+		<link rel="stylesheet" href="assets/css/two.css" />
+		<link rel="stylesheet" href="assets/css/three.css" />
+		<link rel="stylesheet" href="assets/css/four.css" />
+		<link rel="stylesheet" href="assets/css/five.css" />
+		<link rel="stylesheet" href="assets/css/footer.css" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="assets/js/smoothslide.js"></script>
 	</head>
+
 	<body>
 
 		<!-- Header -->
@@ -25,7 +33,7 @@
 					<nav id="nav">
 						<a href="#one">Home</a>
 						<a href="#four">Hoe werkt het?</a>
-						<!--<a href="#six"><Trainingen</a>-->
+						<a href="#six">Trainingen</a>
 						<a href="#two">Over ons</a>
 						<a href="#three">Privacy / Contact</a>
 						<a href="#footer">Contactformulier</a>
@@ -88,15 +96,29 @@ Let op: de sessies worden niet vergoed door je zorgverzekeraar.</p>
 						<h3>&zwnj;</h3><h3>&zwnj;</h3>
 					</section>
 
-					<!-- Three --><!--<div id="six"></div>
+					<!-- Three --><div id="six"></div>
 						<section id="one">
 							<div class="inner">
 								<header>
-									<h2>Trainingen</h2><h3>&zwnj;</h3><h3>&zwnj;</h3><h3>&zwnj;</h3><h3>&zwnj;</h3><h3>&zwnj;</h3>
+									<h2>Trainingen</h2>
 								</header>
-
+									<p>Ben je op zoek naar een manier om de vitaliteit en de prestaties van je werknemers te verbeteren? Maak een afspraak om samen de mogelijkheden voor een training op locatie te bespreken.</p>
 							</div>
-						</section>-->
+							<div class="row">
+								<div class="column">
+									<h4>Hoe leer ik een nieuwe gewoonte?</h4>
+									<p>Some text..</p>
+								</div>
+								<div class="column">
+									<h4>Hoe sta ik mezelf niet in de weg?</h4>
+									<p>Some text..</p>
+								</div>
+								<div class="column">
+									<h4>Training op maat</h4>
+									<p>Some text..</p>
+								</div>
+							</div>
+						</section>
 
 		<!-- Two -->
 			<section id="two">
@@ -171,7 +193,7 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 				</div>
 			</section>
 
-		<!-- Footer --><!--
+		<!-- Footer -->
 			<section id="footer">
 				<div class="inner">
 					<header>
@@ -201,9 +223,6 @@ IBAN: NL15 KNAB 0257 9986 83</p>
 					</div>
 				</div>
 			</section>
--->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>

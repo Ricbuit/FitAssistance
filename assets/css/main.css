@@ -1744,3 +1744,20 @@
 			}
 
 		}
+
+		/* Create three equal columns that floats next to each other */
+		.column {
+		  float: left;
+		  width: 30.00%;
+		  padding: 15px;
+			margin: 1% 0% 0% 2.5%;
+			background-color: #f3f3f3;
+			text-align: center;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
