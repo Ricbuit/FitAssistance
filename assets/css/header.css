@@ -13,7 +13,7 @@
   z-index: 10001;
   border-style: solid;
   border-width: 4px;
-  border-color: #4d4d4d;
+  border-color: #010101;
 }
 
   #header .inner {
@@ -170,4 +170,52 @@ body {
 .change .bar3 {
   -webkit-transform: rotate(45deg) translate(-8px, -8px);
   transform: rotate(45deg) translate(-8px, -8px);
+}
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background: #4d4d4d;
+  position: fixed;
+  z-index: 10001;
+  width: 100%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #010101;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  font-weight: 300;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #FFFFFF;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #4CAF50;
+  color: white;
 }

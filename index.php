@@ -44,11 +44,33 @@
 							<div class="bar2"></div>
 							<div class="bar3"></div>
 						</div>
-
 					</nav>
 				</div>
 			</header>
 
+
+			<!-- Top Navigation Menu -->
+			<div class="topnav">
+			  <!-- Navigation links (hidden by default) -->
+			  <div id="myLinks">
+					<a href="#one" onclick="myFunction(this)">Home</a>
+					<a href="#two" onclick="myFunction(this)">Hoe werkt het?</a>
+					<a href="#three" onclick="myFunction(this)">Trainingen</a>
+					<a href="#four" onclick="myFunction(this)">Over ons</a>
+					<a href="#five" onclick="myFunction(this)">Privacy / Contact</a>
+					<a href="#footer" onclick="myFunction(this)">Contactformulier</a>
+			  </div>
+			</div>
+<script>
+			function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
