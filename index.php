@@ -191,7 +191,7 @@
 				</div>
 			</section>
 
-		<!-- Footer --><!--
+		<!-- Footer -->
 			<section id="footer">
 				<div class="inner">
 					<header>
@@ -220,7 +220,7 @@
 						<a href="https://www.instagram.com/fitassistance.nl/" class="fab fa-instagram"></a>
 					</div>
 				</div>
-			</section>-->
+			</section>
 
 	</body>
 </html>
