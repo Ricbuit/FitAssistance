@@ -32,12 +32,19 @@
 				<div class="inner">
 					<img src="images/fitlogo.jpg" alt="" class="logo">
 					<nav id="nav">
-						<a href="#one">Home</a>
+						<!--<a href="#one">Home</a>
 						<a href="#two">Hoe werkt het?</a>
 						<a href="#three">Trainingen</a>
 						<a href="#four">Over ons</a>
 						<a href="#five">Privacy / Contact</a>
-						<a href="#footer">Contactformulier</a>
+						<a href="#footer">Contactformulier</a>-->
+
+						<div class="container" onclick="myFunction(this)">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+
 					</nav>
 				</div>
 			</header>
