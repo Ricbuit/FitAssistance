@@ -76,12 +76,14 @@
 			<section id="one">
 				<div class="inner">
 					<header>
+
 						<h2>Home</h2>
 					</header>
 					<p>Welkom bij Fit Assistance! Bij Fit Assistance hebben wij één doel: mensen helpen nóg beter te worden dan dat ze al zijn. Wij bieden mentale ondersteuning bij je gezondheidsdoelen.
 						Heb je moeite met het volhouden van een sportprogramma of een bepaald dieet? Wil je graag beter worden in de sport die je beoefent? Of wil je meer routine opbouwen en je slechte
 						gewoontes veranderen? Neem dan contact op voor een vrijblijvend kennismakingsgesprek.</p>
 				</div>
+
 			</section>
 
 			<!-- Two -->

@@ -3,6 +3,11 @@
   padding: 6em 0 4em 0;
 }
 
+/*#one .inner{
+
+  margin-left: 10%;
+}*/
+
   @media screen and (max-width: 980px) {
 
     #one {
