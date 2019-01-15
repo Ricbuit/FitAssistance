@@ -8,7 +8,6 @@
     #three {
       padding: 4em 0 2em 0;
     }
-
   }
 
   @media screen and (max-width: 736px) {
@@ -17,6 +16,32 @@
       padding: 2em 0 0.1em 0;
     }
 
+    #three .row {
+      -moz-flex-direction: column;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+
+    #three .row .column {
+      width: 95%;
+      padding-top: 35px;
+      margin-bottom: 10px;
+    }
+
+    .scroll{
+
+      position: relative !important;
+      bottom: 0;
+      list-style-type: none;
+      width: 95% !important;
+      margin-top: 50px !important;
+    }
+
+    .column{
+
+      height: auto !important;
+    }
   }
 
   #three input[type="submit"],

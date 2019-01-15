@@ -11,9 +11,8 @@
   top: 0;
   width: 100%;
   z-index: 10001;
-  border-style: solid;
-  border-width: 4px;
-  border-color: #010101;
+  border-top: 4px solid #010101;
+  border-bottom: 4px solid #010101;
 }
 
   #header .inner {
@@ -85,10 +84,17 @@
       }
     }
 
-    @media screen and (max-width: 810px) {
+    @media screen and (max-width: 1230px) {
 
       #header a {
         display: none;
+      }
+    }
+
+    @media screen and (max-width: 1230px) {
+
+      .container {
+        display: inline-block !important;
       }
     }
 
@@ -105,7 +111,6 @@
           width:115px;
           height:65px;
         }
-
     }
 }
 @media screen and (max-width: 480px) {
@@ -148,7 +153,7 @@ body {
 }
 
 .container {
-  display: inline-block;
+  display: none;
   cursor: pointer;
 }
 
@@ -179,9 +184,6 @@ body {
   position: fixed;
   z-index: 10001;
   width: 100%;
-  border-width: 4px;
-  border-style: solid;
-  border-color: #010101;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */

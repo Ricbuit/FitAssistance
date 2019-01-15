@@ -32,45 +32,35 @@
 				<div class="inner">
 					<img src="images/fitlogo.jpg" alt="" class="logo">
 					<nav id="nav">
-						<!--<a href="#one">Home</a>
+						<a href="#one">Home</a>
 						<a href="#two">Hoe werkt het?</a>
 						<a href="#three">Trainingen</a>
 						<a href="#four">Over ons</a>
 						<a href="#five">Privacy / Contact</a>
-						<a href="#footer">Contactformulier</a>-->
+						<a href="#footer">Contactformulier</a>
 
-						<div class="container" onclick="myFunction(this)">
-							<div class="bar1"></div>
-							<div class="bar2"></div>
-							<div class="bar3"></div>
+						<div class="container" onclick="myFunction()" id="container">
+						  <div class="bar1"></div>
+						  <div class="bar2"></div>
+						  <div class="bar3"></div>
 						</div>
 					</nav>
 				</div>
 			</header>
 
-
 			<!-- Top Navigation Menu -->
 			<div class="topnav">
 			  <!-- Navigation links (hidden by default) -->
 			  <div id="myLinks">
-					<a href="#one" onclick="myFunction(this)">Home</a>
-					<a href="#two" onclick="myFunction(this)">Hoe werkt het?</a>
-					<a href="#three" onclick="myFunction(this)">Trainingen</a>
-					<a href="#four" onclick="myFunction(this)">Over ons</a>
-					<a href="#five" onclick="myFunction(this)">Privacy / Contact</a>
-					<a href="#footer" onclick="myFunction(this)">Contactformulier</a>
+					<a href="#one" onclick="myFunction()">Home</a>
+					<a href="#two" onclick="myFunction()">Hoe werkt het?</a>
+					<a href="#three" onclick="myFunction()">Trainingen</a>
+					<a href="#four" onclick="myFunction()">Over ons</a>
+					<a href="#five" onclick="myFunction()">Privacy / Contact</a>
+					<a href="#footer" onclick="myFunction()">Contactformulier</a>
 			  </div>
 			</div>
-<script>
-			function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
@@ -226,7 +216,7 @@
 					<header>
 						<h2>Contactformulier</h2>
 					</header>
-					<form method="post" action="#">
+					<form method="post" action="https://formspree.io/meowoo@live.nl">
 						<div class="field half first">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
