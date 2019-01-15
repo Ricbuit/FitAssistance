@@ -216,7 +216,7 @@
 					<header>
 						<h2>Contactformulier</h2>
 					</header>
-					<form method="post" action="https://formspree.io/meowoo@live.nl">
+					<form method="post" action="https://formspree.io/info@fitassistance.nl">
 						<div class="field half first">
 							<label for="name">Name</label>
 							<input type="text" name="name" id="name" />
