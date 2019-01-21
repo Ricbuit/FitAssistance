@@ -173,13 +173,24 @@
     line-height: 1.5;
   }
 
+  #banner .inner h1{
+
+    padding-left: 3em;
+  }
+
+  @media screen and (max-width: 980px) {
+
+    #banner .inner h1{
+      padding-left: 0em;
+    }
+  }
+
     @media screen and (max-width: 480px) {
 
       #banner .inner {
         max-width: 90%;
         width: 90%;
       }
-
     }
 
   #banner h1 {

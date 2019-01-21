@@ -210,14 +210,7 @@ body {
   top: 0;
 }
 
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
+.topnav a:active {
   background-color: #FFFFFF;
   color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
 }

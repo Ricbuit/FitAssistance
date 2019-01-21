@@ -8,6 +8,20 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f7f7f7',GradientType=1 );
 }
 
+#four .content{
+
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+@media screen and (max-width: 1300px) {
+
+  #four .content {
+    padding-left: 0em;
+    padding-right: 0em;
+  }
+}
+
   #four .inner {
     display: -ms-flexbox;
     display: -moz-flex;
